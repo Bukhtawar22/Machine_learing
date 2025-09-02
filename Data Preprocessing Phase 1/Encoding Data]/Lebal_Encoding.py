@@ -21,4 +21,3 @@ df_label['Passed_Encoded']=le.fit_transform(df_label['Passed'])
 print("\nLabel Encoed Data")
 print(df_label[['Name','Gander','Gander_Encoded','Passed','Passed_Encoded']].head())
 
- 

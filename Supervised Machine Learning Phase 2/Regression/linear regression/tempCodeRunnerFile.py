@@ -1,11 +1,6 @@
-        # user sy input ly kr prediction
-
-        hour = float(input("Enter hours which u wanna study: "))
-
-        prediction= model.predict([[hour]]) 
-
-
-        if hour <= 2 :
-            print(f"Based on your hour {hour}, you may score around {prediction} u will fail")
-        else:
-            print(f"Based on your hour {hour}, you may score around {prediction} u will passed")
+plt.scatter(X_train, y_train, color="blue", label="Train data")
+# plt.scatter(X_test, y_test, color="green", label="Test data")
+# plt.xlabel("Hours")
+# plt.ylabel("Scores")
+# plt.legend()
+# plt.show()
